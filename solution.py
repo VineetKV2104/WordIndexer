@@ -93,4 +93,5 @@ class WordIndexer:
 if __name__ == '__main__':
     w = WordIndexer()
     path = str(os.getcwd())+"\\pages\\"
+    # path = input()
     w.readAndStartIndex(path)
